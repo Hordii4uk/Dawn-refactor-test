@@ -1,4 +1,6 @@
+
 {{ 'refactor-featured-products.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'refactor-featured-products.js' | asset_url }}" defer="defer"></script>
 
 {%- assign uniqueCartIds = cart.items | map: 'product_id' | uniq -%}
 {%- assign section_id = section.id -%}

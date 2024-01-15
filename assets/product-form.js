@@ -87,6 +87,11 @@ if (!customElements.get('product-form')) {
             } else {
               this.cart.renderContents(response);
             }
+
+            document.dispatchEvent(new CustomEvent('product:added', {
+              detail: 'Product added'
+            }));
+            
           })
           .catch((e) => {
             console.error(e);
