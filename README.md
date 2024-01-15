@@ -13,7 +13,6 @@ Project is based on the Shopfy Dawn theme
 **Shopify CLI**
 
 **Includes Gulp to compile Sass into CSS**
-
 ## Project building
 
 Before starting, you'll need [Node](https://nodejs.org/en)
@@ -32,3 +31,15 @@ This will process any Sass (SCSS) files and launch a project showing the current
 ```
 
 This will launch a local development environment using the Shopify CLI
+
+
+## Here is a preview link
+
+[Theme preview](https://test-refactor.myshopify.com/)
+
+**Password:** refactor
+
+## Author
+
+- [Myroslav Hordiichuk](github.com/Hordii4uk)
+
