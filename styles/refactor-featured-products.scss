@@ -1,0 +1,51 @@
+.featured-products {
+  &__grid {
+    row-gap: 6rem;
+  }
+  
+  &__item {
+    text-align: center;
+    text-align: -webkit-center;
+    
+    a {
+      text-decoration: none;
+      color: #656874;
+      font-size: 22px;
+    }
+ 
+    &-image {
+      width: 100%;
+      height: auto;
+    }
+ 
+    &-title {
+      margin: 10px auto;
+    }
+ 
+    &-btn {
+      padding: 18px 80px 18px 81px;
+      margin: 10px auto;
+      border-radius: 40px;
+      border: 1px solid #464B90;
+      background: #464B90;
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 400;
+      cursor: pointer;
+      .path {
+        stroke: white;
+      }
+    }
+  }
+ 
+  &__heading {
+    text-align: center;
+    color: #656874;
+    font-size: min(max(3vw,26px),42px);
+  }
+ 
+  &__grid-item {
+    text-align: center;
+    text-align: -webkit-center;
+  }
+}
